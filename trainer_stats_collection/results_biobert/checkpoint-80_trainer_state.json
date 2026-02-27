@@ -1,0 +1,33 @@
+{
+  "best_metric": 0.1703271028037383,
+  "best_model_checkpoint": "./results_biobert/checkpoint-80",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 80,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.3375,
+      "eval_f1": 0.1703271028037383,
+      "eval_loss": 2.0332770347595215,
+      "eval_precision": 0.11390625000000001,
+      "eval_recall": 0.3375,
+      "eval_runtime": 0.4283,
+      "eval_samples_per_second": 747.12,
+      "eval_steps_per_second": 23.348,
+      "step": 80
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 400,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 5,
+  "save_steps": 500,
+  "total_flos": 84201585377280.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}
